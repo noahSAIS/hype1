@@ -1,77 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
-	<title>EmojiMorphs</title>
-	<style>
-		html {
-			height:100%;
-		}
-		body {
-			background-color:#FFF;
-			margin:0;
-			height:100%;
-		}
-	</style>
-	<!-- copy these lines to your document head: -->
-
-	<meta name="viewport" content="user-scalable=no, viewport-fit=cover, width=375" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-	<link href='https://fonts.googleapis.com/css?family=Baloo+Paaji&subset=latin' rel='stylesheet' type='text/css'>
-	
-	  <svg	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
-     <defs>
-		<filter id="innershadow" x0="-50%" y0="-50%" width="200%" height="200%">
-			<feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"></feGaussianBlur>
-			<feOffset dy="4" dx="3"></feOffset>
-			<feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowDiff"></feComposite>
-			
-           <feFlood flood-color="#000" flood-opacity="0.75"></feFlood>
-		   <feComposite in2="shadowDiff" operator="in"></feComposite>
-		   <feComposite in2="SourceGraphic" operator="over" result="firstfilter"></feComposite>
-          
-          <feGaussianBlur in="firstfilter" stdDeviation="3" result="blur2"></feGaussianBlur>
-			<feOffset dy="2" dx="-3"></feOffset>
-			<feComposite in2="firstfilter" operator="arithmetic" k2="-1" k3="1" result="shadowDiff"></feComposite>
-			
-           <feFlood flood-color="#444444" flood-opacity="0.75"></feFlood>
-			<feComposite in2="shadowDiff" operator="in"></feComposite>
-			<feComposite in2="firstfilter" operator="over"></feComposite>
-		</filter>
-       
-	</defs>
- 
-	
-</svg>
-	
-
-	<!-- end copy -->
-  </head>
-  <body>
-	<!-- copy these lines to your document: -->
-
-	<div id="emojimorphs_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:100%;height:812px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="EmojiMorphs.hyperesources/emojimorphs_hype_generated_script.js?99927"></script>
-	</div>
-
-	<!-- end copy -->
-	
-
-
-	<!-- text content for search engines: -->
-
-	<div style="display:none" aria-hidden=true>
-
-		<div></div>
-		<div>How do you feel today?</div>
-		<div>Mouth</div>
-		<div>Eyes</div>
-
-	</div>
-
-	<!-- end text content: -->
-
-  </body>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Keynote</title>
+        <meta name="viewport" content="initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="assets/player/styles.css">
+    </head>
+    <body id="body" bgcolor="black">
+        <div id="stageArea">
+            <div id="stage" class="stage">
+            </div>
+            <div id="hyperlinkPlane" class="stage">
+            </div>
+        </div>
+        <div id="slideshowNavigator">
+        </div>
+        <div id="slideNumberControl">
+        </div>
+        <div id="slideNumberDisplay">
+        </div>
+        <div id="helpPlacard">
+        </div>
+        <div id="waitingIndicator">
+            <div id="waitingSpinner">
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/player/pdfjs/bcmaps.js"></script></body>
+        <script type="text/javascript" src="assets/player/pdfjs/web/compatibility.js"></script></body>
+        <script type="text/javascript" src="assets/player/pdfjs/pdf.js"></script></body>
+        <script type="text/javascript" src="assets/player/main.js"></script></body>
+    </body>
 </html>
